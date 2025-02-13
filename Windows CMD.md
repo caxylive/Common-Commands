@@ -1,9 +1,14 @@
+# Table of Contents:
+1) [Robocopy](#robocopy)
+
 # Robocopy
-
+```cmd
 robocopy "D:\SourceFolder" "H:\DestinationFolder" /E /IPG:200
-
-## Options:
-|/E | copies all subfolders|
+```
+## Summary of Options:
+| Option | Effect |
+|--------|--------|
+|/E | Copies all subfolders|
 |/IPG:10 | Slight throttling (Fast)|
 |/IPG:50 | Medium throttling (Balanced)|
 |/IPG:100| High throttling (Slow but cool)|
