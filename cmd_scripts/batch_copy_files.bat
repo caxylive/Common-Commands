@@ -1,3 +1,8 @@
+::+-----------------------------+
+::| Batch File Copier           |
+::| Author: Carl Xymon Verdejo  |
+::+-----------------------------+
+
 @echo off
 setlocal enabledelayedexpansion
 
