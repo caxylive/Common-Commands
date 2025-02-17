@@ -5,6 +5,6 @@ clean
 create partition primary
 list volume
 select volume
-format fs=fat32
+format fs=fat32 quick
 label=myDisk
 assign letter=e
